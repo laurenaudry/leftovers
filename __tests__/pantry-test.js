@@ -9,5 +9,13 @@ describe("Pantry", () => {
     expect("Pantry").toBeDefined()
   })
 
+  it("should have text input section", () => {
+    let itemRendered = TestUtils.renderIntoDocument(
+      <Pantry params={"pantryItems: cheese"}/>
+    )
+
+    let textEl = TestUtils.findRenderedDOMComponentWithClass(itemRendered, "textInput")
+    expect(textEl).toBeDefined()
+  })
 
 });
