@@ -1,3 +1,21 @@
-/*
-  Main Stylesheet
-*/
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+.heading {
+  color: #94da5e;
+  height: 4rem;
+  margin: 0;
+  width: 100%; }
+
+.home__heading {
+  color: #1d2f15;
+  font-size: 3rem; }
+
+.home__info {
+  margin-left: 20%; }
+
+.home__facts {
+  color: #4f3610; }
