@@ -14,7 +14,7 @@ describe("Pantry", () => {
       <Pantry params={"pantryItems: cheese"}/>
     )
 
-    let textEl = TestUtils.findRenderedDOMComponentWithClass(itemRendered, "textInput")
+    let textEl = TestUtils.findRenderedDOMComponentWithClass(itemRendered, "text__input")
     expect(textEl).toBeDefined()
   })
 
