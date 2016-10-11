@@ -6,7 +6,7 @@ html {
   font-size: 62.5%; }
 
 .heading {
-  background-color: #85b6b6;
+  background-color: #DC3D24;
   height: 8rem;
   margin: 0;
   overflow: auto;
@@ -15,7 +15,7 @@ html {
   width: 100%; }
 
 .home__heading {
-  color: #4f3610;
+  color: #232B2B;
   font-size: 5rem;
   margin: 0; }
 
@@ -23,7 +23,7 @@ html {
   margin-left: 10%; }
 
 .home__facts {
-  color: #4f3610;
+  color: #232B2B;
   font-size: 2rem;
   margin: 2rem; }
 
@@ -31,14 +31,14 @@ html {
   margin-top: 4rem; }
 
 .pantry__link {
-  background-color: #85b6b6;
-  color: #4f3610;
+  background-color: #DC3D24;
+  color: #232B2B;
   font-size: 2rem;
   font-weight: bold;
-  height: 6rem;
-  padding: 2rem;
+  height: 5rem;
+  padding: 1rem;
   text-decoration: none;
-  width: 8rem; }
+  width: 7rem; }
 
 .pantry__form {
   align-self: center;
@@ -49,9 +49,9 @@ html {
   margin-top: 2rem; }
 
 .pantry__input {
-  border: none;
-  background-color: #85b6b6;
-  color: #4f3610;
+  border: 0.2px solid #DC3D24;
+  background-color: white;
+  color: #232B2B;
   height: 3rem;
   padding: 1rem;
   outline: none;
@@ -59,6 +59,8 @@ html {
 
 .pantry__submit {
   border: none;
-  background-color: #4f3610;
-  color: #85b6b6;
-  height: 3rem; }
+  background-color: #232B2B;
+  color: #DC3D24;
+  font-weight: bolder;
+  height: 3rem;
+  text-transform: capitalize; }
