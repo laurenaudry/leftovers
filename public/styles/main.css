@@ -59,8 +59,8 @@ html {
 
 .pantry__submit {
   border: none;
-  background-color: #232B2B;
-  color: #DC3D24;
+  background-color: #DC3D24;
+  color: white;
   font-weight: bolder;
   height: 3rem;
   text-transform: capitalize; }
