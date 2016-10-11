@@ -8,4 +8,14 @@ describe("Pantry", () => {
   it("should pass", () => {
     expect("Pantry").toBeDefined()
   })
+
+  it("should have text input section", () => {
+    let itemRendered = TestUtils.renderIntoDocument(
+      <Pantry params={"pantryItems: cheese"}/>
+    )
+
+    let textEl = TestUtils.findRenderedDOMComponentWithClass(itemRendered, "pantry__form")
+    expect(textEl).toBeDefined()
+  })
+
 });

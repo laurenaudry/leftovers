@@ -9,8 +9,8 @@
     "build": "webpack",
     "test": "jest",
     "heroku-postbuild": "webpack",
-    "build-sass": "node-sass sass/main.sass styles/main.css",
-    "watch-sass": "node-sass sass/main.sass styles/main.css -w"
+    "build-sass": "node-sass sass/main.sass public/styles/main.css",
+    "watch-sass": "node-sass sass/main.sass public/styles/main.css -w"
   },
   "author": "",
   "license": "ISC",
