@@ -2,8 +2,11 @@
   box-sizing: border-box; }
 
 html {
-  font-family: helvetica;
   font-size: 62.5%; }
+
+body {
+  font-family: helvetica, sans-serif;
+  margin: 0; }
 
 .heading {
   background-color: #e74c3c;
@@ -44,11 +47,37 @@ html {
   text-decoration: none;
   width: 7rem; }
 
+.pantry__heading {
+  background-color: #e74c3c;
+  height: 8rem;
+  margin: 0;
+  overflow: auto;
+  padding: 1rem;
+  text-align: center;
+  width: 100%; }
+
+.pantry__title {
+  color: white;
+  font-size: 3rem;
+  float: left;
+  margin-left: 3rem; }
+
+.recipes__title {
+  color: white;
+  float: right;
+  font-size: 3rem;
+  margin-right: 30rem; }
+
+.pantry {
+  width: 40%;
+  position: absolute; }
+
 .pantry__form {
   border-bottom: .1rem solid gray;
   box-shadow: .2rem .2rem .2rem .2rem #95a5a6;
   display: inline-block;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  margin-left: 2rem; }
 
 .pantry__input {
   border: 0.2px solid #e74c3c;
@@ -57,7 +86,7 @@ html {
   height: 3rem;
   padding: 1rem;
   outline: none;
-  width: 25rem; }
+  width: 20rem; }
 
 .pantry__submit {
   border: none;
@@ -71,14 +100,25 @@ html {
   list-style: none;
   font-size: 3rem;
   font-weight: bold;
-  text-transform: capitalize; }
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  width: 20rem; }
 
-.pantry__recipes {
-  margin-left: 50%;
-  width: 50%; }
+.recipes {
+  margin-left: 40%;
+  margin-right: -100%;
+  position: relative;
+  width: 25%; }
+
+.ingredients {
+  margin-left: 60%;
+  position: relative;
+  width: 25%; }
 
 .recipe__name {
   color: #232B2B;
+  font-size: 1.5rem;
   font-weight: bolder;
   display: block;
   list-style: none;
@@ -89,6 +129,11 @@ html {
   margin: .5rem;
   width: 10rem;
   vertical-align: top; }
+
+.recipe__ingredients {
+  color: #232B2B;
+  list-style: none;
+  margin: .2rem; }
 
 .heading {
   background-color: #e74c3c;

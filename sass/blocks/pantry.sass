@@ -8,21 +8,27 @@
   width: 100%
 
 .pantry__title
-  float: left
   color: white
-  font-size: 2rem
+  font-size: 3rem
+  float: left
+  margin-left: 3rem
 
 .recipes__title
-  float: right
   color: white
-  font-size: 2rem
-  margin-right: 27rem
+  float: right
+  font-size: 3rem
+  margin-right: 30rem
+
+.pantry
+  width: 40%
+  position: absolute
 
 .pantry__form
   border-bottom: .1rem solid gray
   box-shadow: .2rem .2rem .2rem .2rem #95a5a6
   display: inline-block
   margin-top: 2rem
+  margin-left: 2rem
 
 .pantry__input
   border: .2px solid $red
@@ -31,7 +37,7 @@
   height: 3rem
   padding: 1rem
   outline: none
-  width: 25rem
+  width: 20rem
 
 .pantry__submit
   border: none
@@ -48,14 +54,24 @@
   margin: 0
   padding: 0
   text-transform: capitalize
-  width: 40rem
+  width: 20rem
 
-.pantry__recipes
-  margin-left: 50%
-  width: 50%
+.recipe__section
+
+.recipes
+  margin-left: 40%
+  margin-right: -100%
+  position: relative
+  width: 25%
+
+.ingredients
+  margin-left: 60%
+  position: relative
+  width: 25%
 
 .recipe__name
   color: $black
+  font-size: 1.5rem
   font-weight: bolder
   display: block
   list-style: none
@@ -68,8 +84,6 @@
   vertical-align: top
 
 .recipe__ingredients
-    color: $black
-    font-weight: bold
-    display: inline
-    list-style: none
-    margin: .2rem
+  color: $black
+  list-style: none
+  margin: .2rem
