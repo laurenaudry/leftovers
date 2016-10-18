@@ -89,8 +89,6 @@ html {
 .heading {
   background-color: #e74c3c;
   height: 8rem;
-  margin: 0;
-  overflow: auto;
   padding: 1rem;
   text-align: center;
   width: 100%; }

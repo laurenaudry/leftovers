@@ -17,4 +17,9 @@ describe("Pantry", () => {
     let textEl = TestUtils.findRenderedDOMComponentWithClass(itemRendered, "pantry__form")
     expect(textEl).toBeDefined()
   })
+
+  // it("should have submit button", () => {
+  //   let submitButton = TestUtils.findRenderedDOMComponentWithClass("pantry__submit")
+  //   expect(submitButton).toBeDefined()
+  // })
 });
