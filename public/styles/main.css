@@ -25,12 +25,16 @@ html {
 .home__facts {
   color: #232B2B;
   font-size: 2rem;
+  font-weight: bold;
+  line-height: 4rem;
   margin: 2rem; }
 
 .link {
-  margin-top: 4rem; }
+  display: inline;
+  margin-top: 4rem;
+  margin-right: 2rem; }
 
-.pantry__link {
+.page__link {
   background-color: #e74c3c;
   color: white;
   font-size: 2rem;
