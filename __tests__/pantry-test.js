@@ -17,4 +17,5 @@ describe("Pantry", () => {
     let textEl = TestUtils.findRenderedDOMComponentWithClass(itemRendered, "pantry__form")
     expect(textEl).toBeDefined()
   })
+
 });
