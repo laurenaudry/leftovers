@@ -8,6 +8,9 @@ body {
   font-family: helvetica, sans-serif;
   margin: 0; }
 
+.home__page {
+  font-size: 0; }
+
 .heading {
   background-color: #e74c3c;
   height: 8rem;
@@ -23,28 +26,35 @@ body {
   margin: 0; }
 
 .home__info {
-  margin-left: 5%; }
+  display: inline-block;
+  width: 50%; }
 
 .home__facts-title {
   font-size: 2.5rem;
-  font-weight: bolder; }
+  font-weight: bolder;
+  margin: 2rem; }
 
 .home__facts {
   color: #232B2B;
   font-size: 2rem;
   font-weight: bold;
   line-height: 4rem;
-  margin: 2rem;
-  width: 50%; }
+  margin: 2rem; }
+
+.img__container {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top; }
 
 .home__image {
-  float: right;
   border: 0.2rem solid #e74c3c;
-  border-radius: .4rem; }
+  border-radius: 1.5rem;
+  margin-top: 5rem; }
 
 .link {
   display: inline;
   margin-top: 4rem;
+  margin-left: 2rem;
   margin-right: 2rem; }
 
 .page__link {
@@ -110,10 +120,11 @@ body {
 
 .pantry__items {
   list-style: none;
-  font-size: 3.5rem;
+  font-size: 3.8rem;
   font-weight: bold;
   line-height: 5rem;
   list-style: square;
+  margin-left: 5rem;
   text-transform: capitalize;
   width: 20rem; }
 
@@ -184,16 +195,9 @@ body {
   outline: none;
   width: 25rem; }
 
-.grocery__submit {
-  border: none;
-  background-color: #e74c3c;
-  color: white;
-  font-weight: bolder;
-  height: 3rem;
-  text-transform: capitalize; }
-
 .grocery__items {
   list-style: circle;
-  font-size: 3rem;
+  font-size: 3.8rem;
   font-weight: bold;
+  margin-left: 3rem;
   text-transform: capitalize; }
