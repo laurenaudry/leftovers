@@ -23,14 +23,24 @@ body {
   margin: 0; }
 
 .home__info {
-  margin-left: 10%; }
+  margin-left: 5%; }
+
+.home__facts-title {
+  font-size: 2.5rem;
+  font-weight: bolder; }
 
 .home__facts {
   color: #232B2B;
   font-size: 2rem;
   font-weight: bold;
   line-height: 4rem;
-  margin: 2rem; }
+  margin: 2rem;
+  width: 50%; }
+
+.home__image {
+  float: right;
+  border: 0.2rem solid #e74c3c;
+  border-radius: .4rem; }
 
 .link {
   display: inline;
@@ -100,10 +110,10 @@ body {
 
 .pantry__items {
   list-style: none;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: bold;
-  margin: 0;
-  padding: 0;
+  line-height: 5rem;
+  list-style: square;
   text-transform: capitalize;
   width: 20rem; }
 
@@ -121,7 +131,7 @@ body {
   font-weight: bolder;
   height: 20rem;
   list-style: none;
-  margin: .5rem;
+  margin: 1rem;
   overflow-y: scroll;
   padding: .5rem;
   width: 40%; }
